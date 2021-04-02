@@ -49,8 +49,8 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 	width: auto;
-	height: 480px;
-	/*border: solid 2px yellow;*/
+	height: 620px;
+	border: solid 2px yellow;
 }
 
 .direction{
@@ -83,7 +83,11 @@ header{
 
 
 footer{
-	/*border:solid 2px green;*/
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	border:solid 2px green;
 }
 
 .footer nav ul li{
@@ -118,7 +122,7 @@ nav li a{
 }
 
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 700px){
 
 	body{
 		background-position: center 250px;
@@ -151,7 +155,7 @@ nav li a{
 
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 400px){
 	body{
 		background-position: center 150px;
 	}
