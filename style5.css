@@ -49,7 +49,7 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 	width: auto;
-	height: 620px;
+	height: 480px;
 	border: solid 2px yellow;
 }
 
@@ -83,7 +83,7 @@ header{
 
 
 footer{
-	height: 80px;
+	height: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
