@@ -122,7 +122,7 @@ nav li a{
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width:1200px){
 
 	body{
 		background-position: center 250px;
