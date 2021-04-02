@@ -121,7 +121,11 @@ nav li a{
 @media only screen and (max-width: 1200px){
 
 	body{
-		background-position: center 50px;
+		background-position: center 250px;
+	}
+
+	header{
+		margin-top: 50px;
 	}
 
 
@@ -131,9 +135,16 @@ nav li a{
 		justify-content: flex-end;
 		align-items: center;
 		width: auto;
-		height: 350px;
-		border: solid 2px yellow;
+		height: 550px;
+		/*border: solid 2px yellow;*/
 
+	}
+
+	footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		height: 300px;
 	}
 }
 
