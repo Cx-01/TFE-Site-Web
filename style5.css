@@ -50,7 +50,7 @@ header{
 	align-items: center;
 	width: auto;
 	height: 480px;
-	border: solid 2px yellow;
+	/*border: solid 2px yellow;*/
 }
 
 .direction{
@@ -87,7 +87,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	border:solid 2px green;
+	/*border:solid 2px green;*/
 }
 
 .footer nav ul li{
