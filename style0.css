@@ -142,7 +142,7 @@ nav li a{
 }
 
 
-@media only screen and (max-width:950px){
+@media only screen and (max-width:1000px){
 
 	body{
 		background-position: center;
@@ -154,16 +154,18 @@ nav li a{
 	}
 
 	.titre{
-		height: 500px;
-		width: 850px;
+		height: 69px;
+		width: 414px;
 	}
 
 	.blanc{
-		font-size: 20pt;
+		font-size: 25pt;
+		width: 400px;
 
 	}
 	.moi{
-		font-size: 25pt;
+		font-size: 35pt;
+		width: 400px;
 	}
 	.container{
 		display: flex;
@@ -184,7 +186,7 @@ nav li a{
 	}
 
 	.direction a{
-		font-size: 20pt;
+		font-size: 25pt;
 	}
 
 
@@ -198,6 +200,18 @@ nav li a{
 
 	.footer{
 		border:solid 2px green;
+	}
+
+	nav li{
+	/*border:solid 2px  yellow;*/
+		width: 75px;
+		height: 75px;
+		margin-left: 5px;
+	}
+
+	.button1{
+		height: 75px;
+		width: 75px;
 	}
 
 }
