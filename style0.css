@@ -5,11 +5,11 @@
 }
 
 body{
-	background-image: url(img/intro.png);
+	/*background-image: url(img/intro.png);
 	background-size:100%;
 
-	background-repeat: no-repeat;
-	background-color: #110a1d;
+	background-repeat: no-repeat;*/
+	background-color: #120a1e;
 }
 
 header{
@@ -45,17 +45,26 @@ header{
 .container{
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	
 	align-items: center;
 	width: auto;
-	height: 380px;
-	margin-top: 100px;
-	border: solid 2px green;
+	height: 850px;
+	border:solid 2px green;
+	
 }
+
+.luti{
+	display: flex;
+	justify-content: flex-start;
+	width: auto;
+	height: auto;
+	border:solid 2px yellow;
+}
+
 
 .direction{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	color: #ffff;
 	height: 120px;
@@ -69,16 +78,19 @@ header{
 
 .container ul li {
 	list-style: none;
+	text-align: center;
 }
 
 
 .container ul li a{
 	text-decoration: none;
+	text-align: center;
 	color: #ffff;
 }
 
 .container a{
 	font-size: 15pt;
+	text-align: center;
 }
 
 
@@ -122,10 +134,10 @@ nav li a{
 }
 
 
-@media only screen and (max-width:1000px){
+/*@media only screen and (max-width:1000px){
 
 	body{
-		background-position: center 400px;
+		background-position: top 800px;
 
 	}
 
@@ -140,7 +152,7 @@ nav li a{
 		justify-content: flex-end;
 		align-items: center;
 		width: auto;
-		height: 550px;
+		height: 950px;
 		border: solid 2px blue;
 	}
 
@@ -155,12 +167,11 @@ nav li a{
 		border:solid 2px green;
 	}
 }
+*/
 
 
 
-
-@media only screen and (max-width: 600px){
-	body{
+/*	body{
 		background-position: center 400px;
 	}
 	.container{
@@ -192,9 +203,9 @@ nav li a{
 	}
 
 	nav li{
-		/*border:solid 2px  yellow;*/
+		border:solid 2px  yellow;
 		width: 35px;
 		height: 35px;
 		margin-left: 5px;
 	}
-}
+}*/
