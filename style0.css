@@ -125,7 +125,7 @@ nav li a{
 @media only screen and (max-width:1000px){
 
 	body{
-		background-position: center 200px;
+		background-position: center 400px;
 
 	}
 
@@ -140,7 +140,7 @@ nav li a{
 		justify-content: flex-end;
 		align-items: center;
 		width: auto;
-		height: 350px;
+		height: 550px;
 		border: solid 2px blue;
 	}
 
