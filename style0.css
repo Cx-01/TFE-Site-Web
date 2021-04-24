@@ -5,10 +5,10 @@
 }
 
 body{
-	/*background-image: url(img/intro.png);
+	background-image: url(img/intro.png);
 	background-size:100%;
 
-	background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
 	background-color: #120a1e;
 }
 
@@ -45,19 +45,21 @@ header{
 .container{
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-end;
 	align-items: center;
 	width: auto;
-	height: auto;
+	height: 500px;
 	border:solid 2px green;
-	
+	/*background-image: url(img/luti2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;*/
 }
 
 .luti{
-	display: flex;
-	justify-content: flex-start;
+	
 	width: auto;
 	height: auto;
-	border:solid 2px yellow;
+	/*border:solid 2px yellow;*/
 }
 
 
@@ -77,8 +79,6 @@ header{
 
 .direction ul {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
 	align-items: center;
 	list-style: none;
 	text-align: center;
@@ -86,6 +86,8 @@ header{
 
 
 .direction ul li a{
+	display: flex;
+	justify-content: flex-end;
 	text-decoration: none;
 	text-align: center;
 	color: #ffff;
@@ -98,14 +100,16 @@ header{
 
 
 footer{
-	height: 50px;
+	height: 150px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	border: solid 2px red;
 	/*border:solid 2px green;*/
 }
 
 .footer nav ul li{
+
 	list-style: none;
 }
 
@@ -137,32 +141,39 @@ nav li a{
 }
 
 
-/*@media only screen and (max-width:1000px){
+@media only screen and (max-width:1000px){
 
 	body{
-		background-position: top 800px;
-
+		background-position: center;
 	}
 
 	header{
-		
+		margin-top: 100px;
 	}
-
 
 	.container{
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-end;
+		justify-content: center;
 		align-items: center;
 		width: auto;
-		height: 950px;
+		height:1250px;
+		background-position: center;
+		background-size: 100%;
 		border: solid 2px blue;
+	}
+
+	.direction{
+		margin-top: 450px;
+		height: 220px;
+		width: 220px;
 	}
 
 	footer{
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
+		margin-top: 50px;
 		height: 100px;
 	}
 
@@ -170,7 +181,7 @@ nav li a{
 		border:solid 2px green;
 	}
 }
-*/
+
 
 
 
