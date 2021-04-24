@@ -177,14 +177,14 @@ nav li a{
 		justify-content: center;
 		align-items: center;
 		width: auto;
-		height:1250px;
+		height:1300px;
 		background-position: center;
 		background-size: 100%;
 		/*border: solid 2px blue;*/
 	}
 
 	.direction{
-		margin-top: 450px;
+		margin-top: 480px;
 		height: 200px;
 		width: 200px;
 	}
@@ -193,14 +193,19 @@ nav li a{
 		font-size: 25pt;
 	}
 
-	.txt p{
+	.text{
+		padding-top: 150px;
+	}
+
+	.text p{
 		display: flex;
 		align-items: center;
+
 	}
 
 	.bl{
 		width: 550px;
-		font-size: 25px;
+		font-size: 28px;
 		text-align: center;
 	}
 
@@ -208,8 +213,8 @@ nav li a{
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		margin-top: 50px;
-		height: 100px;
+		margin-top: 40px;
+		height: 80px;
 	}
 
 	.footer{
