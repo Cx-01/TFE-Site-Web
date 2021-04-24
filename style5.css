@@ -6,7 +6,10 @@
 }
 
 body{
-	
+	background-image: url(img/intro.png);
+	background-size:100%;
+
+	background-repeat: no-repeat;
 	background-color: #110a1d;
 }
 
@@ -47,10 +50,6 @@ header{
 	align-items: center;
 	width: auto;
 	height: 480px;
-	background-image: url(img/intro.png);
-	background-size:100%;
-
-	background-repeat: no-repeat;
 	/*border: solid 2px yellow;*/
 }
 
