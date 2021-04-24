@@ -153,6 +153,18 @@ nav li a{
 		margin-top: 50px;
 	}
 
+	.titre{
+		height: 500px;
+		width: 850px;
+	}
+
+	.blanc{
+		font-size: 20pt;
+
+	}
+	.moi{
+		font-size: 25pt;
+	}
 	.container{
 		display: flex;
 		flex-direction: column;
@@ -187,6 +199,7 @@ nav li a{
 	.footer{
 		border:solid 2px green;
 	}
+
 }
 
 
