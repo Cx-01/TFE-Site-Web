@@ -48,8 +48,9 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 	width: auto;
-	height: 480px;
-	/*border: solid 2px yellow;*/
+	height: 380px;
+	margin-top: 100px;
+	border: solid 2px green;
 }
 
 .direction{
@@ -63,20 +64,20 @@ header{
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	/*border: solid 2px red;*/
+	border: solid 2px red;
 }
 
-.direction ul li {
+.container ul li {
 	list-style: none;
 }
 
 
-.direction ul li a{
+.container ul li a{
 	text-decoration: none;
 	color: #ffff;
 }
 
-.direction a{
+.container a{
 	font-size: 15pt;
 }
 
@@ -121,15 +122,15 @@ nav li a{
 }
 
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1000px){
 
 	body{
-		background-position: center 350px;
+		background-position: center 200px;
 
 	}
 
 	header{
-		margin-top: 50px;
+		
 	}
 
 
@@ -139,42 +140,50 @@ nav li a{
 		justify-content: flex-end;
 		align-items: center;
 		width: auto;
-		height: 650px;
-		border: solid 2px yellow;
-
+		height: 350px;
+		border: solid 2px blue;
 	}
 
 	footer{
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		height: 300px;
+		height: 100px;
+	}
+
+	.footer{
+		border:solid 2px green;
 	}
 }
 
 
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
 	body{
-		background-position: center 850px;
+		background-position: center 150px;
 	}
 	.container{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 150px;
 		width: auto;
-		height: 450px;
+		height: 250px;
 		border: solid 2px yellow;
-
 	}
+
+
+
 	footer{
-		height: 50px;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
+
+	}
+
+	.footer{
+		border:solid 2px green;
 	}
 
 	nav ul{
