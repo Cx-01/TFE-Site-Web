@@ -22,7 +22,7 @@ header{
 .titre{
 	width: 276px;
 	height: 46px;
-	margin-top: 50px;
+	margin-top: 20px;
 	/*border:solid 2px green;*/
 }
 
@@ -70,6 +70,7 @@ header{
 	color: #ffff;
 	height: 120px;
 	width: 120px;
+	
 	background-image: url(img/boutonIntro2.png);
 	background-position: center;
 	background-size: 100%;
@@ -100,7 +101,7 @@ header{
 
 
 footer{
-	height: 150px;
+	height: 70px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -141,14 +142,15 @@ nav li a{
 }
 
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:950px){
 
 	body{
 		background-position: center;
+		background-size: 120%;
 	}
 
 	header{
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.container{
@@ -165,9 +167,14 @@ nav li a{
 
 	.direction{
 		margin-top: 450px;
-		height: 220px;
-		width: 220px;
+		height: 200px;
+		width: 200px;
 	}
+
+	.direction a{
+		font-size: 20pt;
+	}
+
 
 	footer{
 		display: flex;
