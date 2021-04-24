@@ -125,7 +125,8 @@ nav li a{
 @media only screen and (max-width:1200px){
 
 	body{
-		background-position: center 250px;
+		background-position: center 350px;
+
 	}
 
 	header{
@@ -139,8 +140,8 @@ nav li a{
 		justify-content: flex-end;
 		align-items: center;
 		width: auto;
-		height: 550px;
-		/*border: solid 2px yellow;*/
+		height: 650px;
+		border: solid 2px yellow;
 
 	}
 
@@ -157,7 +158,7 @@ nav li a{
 
 @media only screen and (max-width: 400px){
 	body{
-		background-position: center 150px;
+		background-position: center 850px;
 	}
 	.container{
 		display: flex;
@@ -166,8 +167,26 @@ nav li a{
 		align-items: center;
 		margin-top: 150px;
 		width: auto;
-		height: 250px;
+		height: 450px;
 		border: solid 2px yellow;
 
+	}
+	footer{
+		height: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	nav ul{
+		display:flex;
+		justify-content: center;	
+	}
+
+	nav li{
+		/*border:solid 2px  yellow;*/
+		width: 35px;
+		height: 35px;
+		margin-left: 5px;
 	}
 }
