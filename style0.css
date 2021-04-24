@@ -7,7 +7,6 @@
 body{
 	background-image: url(img/intro.png);
 	background-size:100%;
-
 	background-repeat: no-repeat;
 	background-color: #120a1e;
 }
@@ -49,7 +48,7 @@ header{
 	align-items: center;
 	width: auto;
 	height: 500px;
-	border:solid 2px green;
+	/*border:solid 2px green;*/
 	/*background-image: url(img/luti2.png);
 	background-size: 100%;
 	background-repeat: no-repeat;*/
@@ -70,12 +69,11 @@ header{
 	color: #ffff;
 	height: 120px;
 	width: 120px;
-	
 	background-image: url(img/boutonIntro2.png);
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	border: solid 2px red;
+	/*border: solid 2px red;*/
 }
 
 .direction ul {
@@ -105,7 +103,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	border: solid 2px red;
+	/*border: solid 2px red;*/
 	/*border:solid 2px green;*/
 }
 
@@ -176,7 +174,7 @@ nav li a{
 		height:1250px;
 		background-position: center;
 		background-size: 100%;
-		border: solid 2px blue;
+		/*border: solid 2px blue;*/
 	}
 
 	.direction{
@@ -199,7 +197,7 @@ nav li a{
 	}
 
 	.footer{
-		border:solid 2px green;
+		/*border:solid 2px green;*/
 	}
 
 	nav li{
