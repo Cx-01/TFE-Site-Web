@@ -47,7 +47,7 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 	width: auto;
-	height: 500px;
+	height: 510px;
 	/*border:solid 2px green;*/
 	/*background-image: url(img/luti2.png);
 	background-size: 100%;
@@ -97,6 +97,12 @@ header{
 	text-align: center;
 }
 
+.txt{
+	margin-top: 15px;
+}
+.bl{
+	color: #ffff;
+}
 
 footer{
 	height: 70px;
@@ -187,6 +193,16 @@ nav li a{
 		font-size: 25pt;
 	}
 
+	.txt p{
+		display: flex;
+		align-items: center;
+	}
+
+	.bl{
+		width: 550px;
+		font-size: 25px;
+		text-align: center;
+	}
 
 	footer{
 		display: flex;
