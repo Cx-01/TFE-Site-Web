@@ -21,7 +21,7 @@ header{
 .titre{
 	width: 276px;
 	height: 46px;
-	margin-top: 20px;
+	margin-top: 30px;
 	/*border:solid 2px green;*/
 }
 
@@ -47,7 +47,7 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 	width: auto;
-	height: 510px;
+	height: 500px;
 	/*border:solid 2px green;*/
 	/*background-image: url(img/luti2.png);
 	background-size: 100%;
@@ -102,6 +102,7 @@ header{
 }
 .bl{
 	color: #ffff;
+	font-size: 12pt;
 }
 
 footer{
@@ -129,9 +130,9 @@ nav ul{
 
 nav li{
 	/*border:solid 2px  yellow;*/
-	width: 45px;
-	height: 45px;
-	margin-left: 5px;
+	width: 55px;
+	height: 55px;
+	margin-left: 15px;
 }
 
 nav li a{
@@ -177,14 +178,14 @@ nav li a{
 		justify-content: center;
 		align-items: center;
 		width: auto;
-		height:1300px;
+		height:1250px;
 		background-position: center;
 		background-size: 100%;
 		/*border: solid 2px blue;*/
 	}
 
 	.direction{
-		margin-top: 480px;
+		margin-top: 620px;
 		height: 200px;
 		width: 200px;
 	}
@@ -194,7 +195,7 @@ nav li a{
 	}
 
 	.text{
-		padding-top: 150px;
+		padding-top: 100px;
 	}
 
 	.text p{
@@ -205,7 +206,7 @@ nav li a{
 
 	.bl{
 		width: 550px;
-		font-size: 28px;
+		font-size: 24pt;
 		text-align: center;
 	}
 
@@ -225,7 +226,7 @@ nav li a{
 	/*border:solid 2px  yellow;*/
 		width: 75px;
 		height: 75px;
-		margin-left: 5px;
+		margin-left: 35px;
 	}
 
 	.button1{
