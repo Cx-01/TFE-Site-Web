@@ -113,11 +113,12 @@ body{
 .synopsis h1{
 	padding-top: 25px;
 	color: #ce0f15;
-	font-size: 20pt;
+	font-size: 15pt;
 }
 
 .synopsis p{
 	padding-top: 25px;
+	font-size: 13pt;
 	color: #ffff;
 }
 
