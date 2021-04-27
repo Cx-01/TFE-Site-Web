@@ -9,7 +9,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-repeat: no-repeat;*/
-	background-color: #110a1c;
+	background-color: #09050f;
 }
 
 
@@ -32,13 +32,17 @@ body{
 	text-decoration: none;
 }
 
+.nom a:hover{
+	color: #f48320;
+}
+
 .items{
 	margin-left: auto;
 	padding-right: 70px;
 }
 
 .items a{
-	color: #faa819;
+	color: #f48320;
 	font-size: 13.5pt;
 	text-decoration: none;	
 }
@@ -64,14 +68,13 @@ body{
 	justify-content: space-around;
 	margin-top: 105px;
 	max-height: 1700px;
-	border:solid 2px green;
+	/*border:solid 2px green;*/
 }
 
 .c1{
 	width: 350px;
 	height: 350px;
-	
-	border: solid 2px purple;
+	/*border: solid 2px purple;*/
 }
 
 .fill{
@@ -84,30 +87,25 @@ body{
 .c4{
 	width: 350px;
 	height: 350px;
-
-	border: solid 2px purple;
+	/*border: solid 2px purple;*/
 }
 
 .synopsis{
 	width: 450px;
 	height: 350px;
-
-	border: solid 2px purple;
+	/*border: solid 2px purple;*/
 }
 
 .logo1{
 	width: 80px;
 	height: 80px;
 	margin: auto;
-	
 }
 
 .logo{
 	width: 80px;
 	height: 80px;
 	object-fit: contain;
-	
-
 }
 
 
@@ -132,7 +130,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	margin-top: 90px;
-	border:solid 2px white;
+	/*border:solid 2px white;*/
 }
 
 .footer p{
@@ -140,8 +138,14 @@ body{
 	font-size: 9pt;
 }
 
+
+.footer nav ul {
+	margin-left: 150px;
+}
+
+
 .footer nav li{
-	margin-left: 25px;
+	margin-left: 0px;
 }
 
 
@@ -151,6 +155,15 @@ body{
 }
 
 @media only screen and (max-width:1000px){
+
+
+	body{
+		background-image: url(img/fond3.jpg)  ;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		/*background-repeat: no-repeat;*/
+		background-color: #09050f;
+	}
 	
 
 	.menu {
@@ -186,15 +199,48 @@ body{
 		justify-content: center;
 		align-items: center;
 		margin-top: 105px;
-		max-height: 1200px;
+		max-height: 1400px;
 		border:solid 2px green;
 	}
 
 
+	.c1{
+		flex: 1;
+		order: 1;
+		margin-top: 10px;
+		width: 450px;
+		height: 450px;
+	}
+
+	.c4{
+		order: 3;
+		margin-top: 10px;
+		width: 450px;
+		height: 450px;
+	}
+
+	.fill{
+		width: 450px;
+		height: 450px;
+		object-fit: contain;
+	}
+
 	.synopsis{
-		width: 350px;
-		height: 350px;
+		order: 2;
+		width: 450px;
+		height: 250px;
 }
+
+	.synopsis h1{
+		padding-top: 5px;
+		text-align: center;
+		color: #ce0f15;
+		font-size: 16pt;
+	}
+
+	.synopsis p{
+		text-align: center;
+	}
 
 
 
