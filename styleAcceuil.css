@@ -24,7 +24,6 @@ body{
 .nom{
 	width: 150px;
 	margin-left: 110px;
-
 }
 
 .nom a{
@@ -146,4 +145,47 @@ body{
 .footer nav ul li{
 	display: inline-block;
 	list-style: none;
+}
+
+@media only screen and (max-width:1000px){
+	
+
+	.menu {
+		display: flex;
+ 		flex-direction: row;
+ 		margin-top: 25px;
+ 		align-items: center;
+		/*border: solid 2px yellow;*/
+	}	
+
+	.nom{
+		width: 250px;
+		
+	}
+
+	.items{
+		margin-left: auto;
+		border:solid 2px red;
+
+	}
+
+	.items nav li{
+
+		height: 70px;
+		margin-left: 75px;
+		border:solid 2px red;
+	}
+
+
+	.content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 105px;
+		max-height: 1000px;
+		border:solid 2px green;
+	}
+
+
 }
