@@ -261,12 +261,13 @@ body{
 
 
 	.footer nav li{
-		margin-top: 15px;
+		margin-top: 25px;
+		margin-left: 25px;
 	}
 
 
 	.footer p{
-		margin-top: 60px;
+		margin-top: 90px;
 		font-size: 12pt;
 	}
 
