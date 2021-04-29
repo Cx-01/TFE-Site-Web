@@ -211,7 +211,7 @@ body{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 20px;
+		margin-top: 10px;
 		min-height: 1000px;
 		
 	}
@@ -220,7 +220,7 @@ body{
 	.c1{
 		flex: 1;
 		order: 2;
-		margin-top: 20px;
+		margin-top: 25px;
 		width: 450px;
 		
 	}
@@ -240,7 +240,7 @@ body{
 
 	.synopsis{
 		order: 1;
-		width: 650px;
+		width: 750px;
 		
 }
 
@@ -248,13 +248,13 @@ body{
 		padding-top: 5px;
 		text-align: center;
 		color: #ce0f15;
-		font-size: 24pt;
+		font-size: 26pt;
 	}
 
 	.synopsis p{
 		margin-top: 15px;
 		text-align: center;
-		font-size: 18pt;
+		font-size: 19pt;
 	}
 
 	.footer{
