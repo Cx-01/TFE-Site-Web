@@ -242,10 +242,10 @@ body{
 	}
 
 	.synopsis p{
-		color: #ffff;
+		color: green;
 		margin-top: 25px;
 		text-align: center;
-		font-size: 19pt;
+		font-size: 20pt;
 	}
 
 	.footer{
