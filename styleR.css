@@ -14,12 +14,14 @@ body{
 }
 
 
+
+
 .menu {
 	display: flex;
  	flex-direction: row;
  	margin-top: 25px;
  	align-items: center;
-	
+ 	
 }
 
 .nom{
@@ -66,47 +68,32 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: 105px;
-	max-height: 1700px;
+	align-items: center;
+	min-height: 590px;
+	width: auto;
+	overflow: hidden;
 	/*border:solid 2px green;*/
 }
 
-.c1{
+
+.intro{
 	width: 350px;
 	height: 350px;
-	/*border: solid 2px purple;*/
+	/*margin-left: 25px;*/
+	margin-top: 50px;
+	border: solid 2px purple;
 }
 
-.fill{
-	width: 350px;
-	height: 350px;
-	object-fit: contain;
-}
-
-
-.c4{
-	width: 350px;
-	height: 350px;
-	/*border: solid 2px purple;*/
-}
-
-.synopsis{
-	width: 450px;
-	height: 350px;
-	margin-top: 70px;
-	/*border: solid 2px purple;*/
-}
-
-.synopsis h1{
+.intro h1{
 	padding-top: 5px;
 	color: #ce0f15;
 	font-size: 16pt;
 }
 
-.synopsis p{
+.intro p{
 	padding-top: 15px;
 	font-size: 11pt;
-	color: #ffff;
+	color: #f48320;
 }
 
 
@@ -116,7 +103,6 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin-top: 70px;
 	/*border:solid 2px white;*/
 }
 
@@ -141,13 +127,13 @@ body{
 	list-style: none;
 }
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:980px){
 
 
 	body{
-		background-image: url(img/fond3.jpg)  ;
+		/*background-image: url(img/fond3.jpg)  ;
 		background-size: 120%;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat;*/
 		/*background-repeat: no-repeat;*/
 		background-color: #09050f;
 	}
@@ -156,9 +142,8 @@ body{
 	.menu {
 		display: flex;
  		flex-direction: column;
- 		
- 		margin-top: 55px;
  		align-items: center;
+
 		/*border: solid 2px yellow;*/
 	}	
 
@@ -203,46 +188,28 @@ body{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: -10px;
+		overflow: hidden;
+		overflow: scroll;
+		margin-top: 50px;
 		min-height: 1000px;
-		
+		border:solid 2px blue;
 	}
 
 
-	.c1{
-		flex: 1;
-		order: 2;
-		margin-top: 15px;
-		width: 450px;
-		
-	}
-
-	.c4{
-		order: 3;
-		margin-top: 10px;
-		width: 450px;
-		
-	}
-
-	.fill{
-		width: 450px;
-		height: 450px;
-		object-fit: contain;
-	}
-
-	.synopsis{
+	.intro{
 		order: 1;
 		width: 750px;
-}
+		overflow: hidden;
+	}
 
-	.synopsis h1{
+	.intro h1{
 		margin-top: 5px;
 		text-align: center;
 		color: #f48320;
 		font-size: 26pt;
 	}
 
-	.synopsis p{
+	.intro p{
 		color: #ffff;
 		margin-top: 25px;
 		text-align: center;
