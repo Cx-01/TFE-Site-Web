@@ -93,22 +93,9 @@ body{
 .synopsis{
 	width: 450px;
 	height: 350px;
+	margin-top: 70px;
 	/*border: solid 2px purple;*/
 }
-
-.logo1{
-	width: 80px;
-	height: 80px;
-	margin: auto;
-}
-
-.logo{
-	width: 80px;
-	height: 80px;
-	object-fit: contain;
-}
-
-
 
 .synopsis h1{
 	padding-top: 5px;
@@ -129,7 +116,7 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin-top: 120px;
+	margin-top: 70px;
 	/*border:solid 2px white;*/
 }
 
@@ -215,7 +202,7 @@ body{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 10px;
+		margin-top: 0px;
 		min-height: 1000px;
 		
 	}
@@ -224,14 +211,14 @@ body{
 	.c1{
 		flex: 1;
 		order: 2;
-		margin-top: 25px;
+		margin-top: 15px;
 		width: 450px;
 		
 	}
 
 	.c4{
 		order: 3;
-		margin-top: 20px;
+		margin-top: 10px;
 		width: 450px;
 		
 	}
@@ -245,18 +232,18 @@ body{
 	.synopsis{
 		order: 1;
 		width: 750px;
-		
 }
 
 	.synopsis h1{
-		padding-top: 5px;
+		margin-top: 5px;
 		text-align: center;
-		color: #ce0f15;
+		color: #f48320;
 		font-size: 26pt;
 	}
 
 	.synopsis p{
-		margin-top: 15px;
+		color: #ffff;
+		margin-top: 25px;
 		text-align: center;
 		font-size: 19pt;
 	}
@@ -279,7 +266,7 @@ body{
 
 
 	.footer p{
-		margin-top: 10px;
+		margin-top: 60px;
 		font-size: 12pt;
 	}
 
