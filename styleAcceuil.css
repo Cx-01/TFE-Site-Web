@@ -19,7 +19,7 @@ body{
  	flex-direction: row;
  	margin-top: 25px;
  	align-items: center;
-	/*border: solid 2px yellow;*/
+	border: solid 2px yellow;
 }
 
 .nom{
@@ -38,7 +38,7 @@ body{
 }
 
 .items nav{
-
+	margin-left: 300px;
 }
 
 .items a{
@@ -53,7 +53,7 @@ body{
 
 
 .items nav li{
-	margin-left: 55px;
+	margin-left: 50px;
 }
 
 
@@ -169,28 +169,40 @@ body{
 	.menu {
 		display: flex;
  		flex-direction: column;
- 		justify-content: center;
+ 		
  		margin-top: 55px;
  		align-items: center;
 		/*border: solid 2px yellow;*/
 	}	
+
+	.menu nav{
+		margin: auto;
+	}
+
+
+
 
 	.nom{
 		width: 250px;
 	}
 
 	.nom a{
-		font-size: 25pt;
+		font-size: 35pt;
 	}
 
 	.items{
-		
 		border:solid 2px red;
+	}
 
+	.items a{
+		
+		font-size: 18pt;
+		
 	}
 
 	.items nav li{
 		margin-top: 50px;
+		margin-left: 25px;
 		height: 70px;
 		border:solid 2px red;
 	}
@@ -201,25 +213,25 @@ body{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 105px;
-		max-height: 1400px;
-		border:solid 2px green;
+		margin-top: 135px;
+		min-height: 1000px;
+		
 	}
 
 
 	.c1{
 		flex: 1;
-		order: 1;
-		margin-top: 10px;
+		order: 2;
+		margin-top: 20px;
 		width: 450px;
-		height: 450px;
+		
 	}
 
 	.c4{
 		order: 3;
-		margin-top: 10px;
+		margin-top: 20px;
 		width: 450px;
-		height: 450px;
+		
 	}
 
 	.fill{
@@ -229,20 +241,22 @@ body{
 	}
 
 	.synopsis{
-		order: 2;
-		width: 450px;
-		height: 250px;
+		order: 1;
+		width: 650px;
+		
 }
 
 	.synopsis h1{
 		padding-top: 5px;
 		text-align: center;
 		color: #ce0f15;
-		font-size: 16pt;
+		font-size: 24pt;
 	}
 
 	.synopsis p{
+		margin-top: 15px;
 		text-align: center;
+		font-size: 18pt;
 	}
 
 
