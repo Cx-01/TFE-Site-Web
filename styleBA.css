@@ -69,9 +69,9 @@ body{
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	min-height: 590px;
+	min-height: 593px;
 	width: auto;
-	border:solid 2px green;
+	
 }
 
 .bandeAnnonce{
@@ -82,8 +82,33 @@ body{
 
 
 .video{
-	border: solid blue 2px;
+	width: 854px;
+	height: 480px;
+	border:solid 3px #9b1b1f;
 }
+
+.intro{
+	width: 350px;
+	height: 450px;
+	/*margin-left: 25px;*/
+	border: solid 2px purple;
+}
+
+.intro h1{
+	padding-top: 5px;
+	color: #ce0f15;
+	font-size: 16pt;
+}
+
+.intro p{
+	padding-top: 15px;
+	font-size: 11pt;
+	color: #f48320;
+}
+
+
+
+
 
 .footer{
 	display: flex;
@@ -118,9 +143,9 @@ body{
 
 
 	body{
-		/*background-image: url(img/fond3.jpg)  ;
+		background-image: url(img/fond3.jpg)  ;
 		background-size: 120%;
-		background-repeat: no-repeat;*/
+		background-repeat: no-repeat;
 		/*background-repeat: no-repeat;*/
 		background-color: #09050f;
 	}
@@ -171,13 +196,17 @@ body{
 
 
 	.content{
-	
+		flex-direction: column;
+		margin-top: 25px;
+	}
+
+	.intro{
+		margin-top: 25px;
 	}
 
 	.video{
-		width: 610px;
-		height: 343px;
-		border: solid blue 2px;
+		width: 854px;
+		height: 480px;
 	}
 
 
@@ -200,7 +229,7 @@ body{
 
 
 	.footer p{
-		margin-top: 90px;
+		margin-top: 50px;
 		font-size: 12pt;
 	}
 
