@@ -71,42 +71,6 @@ body{
 	
 }
 
-.bandeAnnonce{
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-}
-
-
-.video{
-	width: 854px;
-	height: 480px;
-	border:solid 3px #9b1b1f;
-}
-
-.intro{
-	width: 350px;
-	height: 450px;
-	/*margin-left: 25px;*/
-	border: solid 2px purple;
-}
-
-.intro h1{
-	padding-top: 5px;
-	color: #ce0f15;
-	font-size: 16pt;
-}
-
-.intro p{
-	padding-top: 15px;
-	font-size: 11pt;
-	color: #f48320;
-}
-
-
-
-
-
 .footer{
 	display: flex;
 	flex-direction: row;
@@ -195,15 +159,6 @@ body{
 	.content{
 		flex-direction: column;
 		margin-top: 25px;
-	}
-
-	.intro{
-		margin-top: 25px;
-	}
-
-	.video{
-		width: 854px;
-		height: 480px;
 	}
 
 
